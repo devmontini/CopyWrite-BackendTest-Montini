@@ -1,0 +1,35 @@
+{
+  "name": "copywrite-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "nodemon": "nodemon ./src/index.js",
+    "test": "mocha test/index.test.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devmontini/CopyWrite-Back.git"
+  },
+  "author": "devmontini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devmontini/CopyWrite-Back/issues"
+  },
+  "homepage": "https://github.com/devmontini/CopyWrite-Back#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.1",
+    "mocha": "^10.0.0",
+    "morgan": "^1.10.0",
+    "node": "^12.22.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "supertest": "^6.2.4"
+  }
+}
