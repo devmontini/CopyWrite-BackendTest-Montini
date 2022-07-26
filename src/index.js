@@ -3,6 +3,7 @@ const morgan = require("morgan");
 const cors = require("cors");
 const helmet = require("helmet");
 require("dotenv").config();
+const { CORS_URL } = process.env;
 
 //CONSTANTS
 const server = express();
@@ -14,6 +15,10 @@ server.set("json spaces", 2);
 server.use(helmet());
 server.use(cors());
 server.use(morgan("dev"));
+server.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", CORS_URL);
+  next();
+});
 server.use(express.urlencoded({ extended: true }));
 server.use(express.json());
 
