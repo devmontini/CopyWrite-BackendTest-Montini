@@ -13,14 +13,11 @@ server.set("json spaces", 2);
 
 //MIDDLEWARES
 server.use(helmet());
-server.use(cors());
+
 server.use(morgan("dev"));
-server.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", CORS_URL);
-  next();
-});
 server.use(express.urlencoded({ extended: true }));
 server.use(express.json());
+server.use(cors());
 
 //ROUTE BY QUERY TEXT
 server.get("/iecho", async (req, res) => {
