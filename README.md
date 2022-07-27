@@ -6,7 +6,7 @@ El JavaScript challenge para Full Stack por `Franco Montini`[devMontini](https:/
 
 ---
 
-## Backend
+## BACKEND
 
 Un API REST, a la cual se le envía un texto y responde con el mismo texto invertido.
 [Repo](https://github.com/devmontini/CopyWrite-BackendTest-Montini)
@@ -27,11 +27,13 @@ Un API REST, a la cual se le envía un texto y responde con el mismo texto inver
 
 ---
 
-## Frontend
+## Ir al FRONTEND
 
 Un App cliente en React que permita enviar textos a la API del punto anterior y muestre las respuestas del API desde la ultima a la primera.
-[Repo](https://github.com/devmontini/CopyWrite-FrontendTest-Montini)
-[Deploy](https://copy-write-frontend-test-montini.vercel.app/)
+
+[Repo](https://github.com/devmontini/CopyWrite-FrontendTest-Montini) https://github.com/devmontini/CopyWrite-FrontendTest-Montini
+
+[Deploy](https://copy-write-frontend-test-montini.vercel.app/) https://copy-write-frontend-test-montini.vercel.app/
 
 ### Librerias y Frameworks utilizadas:
 
